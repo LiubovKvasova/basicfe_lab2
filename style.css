@@ -1,0 +1,32 @@
+.task2 {
+  margin: 10px;
+}
+
+.square {
+  height: 80px;
+  width: 80px;
+  border: double #000000;
+  border-radius: 15px;
+}
+
+.square-first {
+  background-color: #f1b584;
+  position: static;
+}
+
+.square-second {
+  background-color: #c99a99a2;
+  position: relative;
+  bottom: 50px;
+  left: 40px;
+}
+
+.square-third {
+  background-color: #f1b584;
+  transform: translate(170px, -170px);
+}
+
+.square-fourth {
+  background-color: #c99a99a2;
+  transform: translate(210px, -220px);
+}
